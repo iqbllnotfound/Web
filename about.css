@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+section h3 {
+  text-align: center;
+  padding: 20px 0;
+  color: #148f77;
+  margin-bottom: 25px;
+}
+.about,
+.service {
+  padding-bottom: 100px;
+}
+.about p {
+  color: #666;
+  word-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label {
+  background-color: #148f77;
+  color: #fff;
+}
+footer {
+  margin-top: 110px;
+  padding: 30px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
